@@ -19,6 +19,6 @@ Test6510 - a VS unit test project
 
 The progress is visible in the file called Opcode.cs that lists all implemented opcodes. If you contribute, then please only add opcodes to this list that are implemented and tested. This ensures that that Opcode.cs file is up-to-date at all times and reflects the progress of the project. 
 
-![img](https://github.com/peopleandbits/C64CPU/ClassDiagram.png)
+![img](https://github.com/peopleandbits/C64CPU/blob/master/ClassDiagram.png)
 
-![img](https://github.com/peopleandbits/C64CPU/opcodes.png)
+![img](https://github.com/peopleandbits/C64CPU/blob/master/opcodes.png)
