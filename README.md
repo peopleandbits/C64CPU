@@ -1,7 +1,7 @@
 # C64CPU
 An emulator for MOS 6510 CPU used in Commodore 64. This project contains no UI, only internal representation of the CPU written in C#. There are also an assembler and a disassembler. 
 
-![img](https://github.com/peopleandbits/C64CPU/blob/master/c64-left.jpg)
+![img](https://github.com/peopleandbits/C64CPU/blob/master/C64-left.jpg)
 
 ## Goals
 
