@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MOS6510", "MOS6510\MOS6510.csproj", "{F40AA62A-89CD-4EB1-88D7-7D5DBE6A1DF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "emuConsole", "emuConsole\emuConsole.csproj", "{3A306958-25E0-41D7-955C-1AA987F78713}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test6510", "Test6510\Test6510.csproj", "{5C40CBFD-E8EE-419F-B2BA-19B4E730958E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F40AA62A-89CD-4EB1-88D7-7D5DBE6A1DF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F40AA62A-89CD-4EB1-88D7-7D5DBE6A1DF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F40AA62A-89CD-4EB1-88D7-7D5DBE6A1DF3}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{F40AA62A-89CD-4EB1-88D7-7D5DBE6A1DF3}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{F40AA62A-89CD-4EB1-88D7-7D5DBE6A1DF3}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F40AA62A-89CD-4EB1-88D7-7D5DBE6A1DF3}.Debug|x86.Build.0 = Debug|Any CPU
+		{F40AA62A-89CD-4EB1-88D7-7D5DBE6A1DF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F40AA62A-89CD-4EB1-88D7-7D5DBE6A1DF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F40AA62A-89CD-4EB1-88D7-7D5DBE6A1DF3}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{F40AA62A-89CD-4EB1-88D7-7D5DBE6A1DF3}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{F40AA62A-89CD-4EB1-88D7-7D5DBE6A1DF3}.Release|x86.ActiveCfg = Release|Any CPU
+		{F40AA62A-89CD-4EB1-88D7-7D5DBE6A1DF3}.Release|x86.Build.0 = Release|Any CPU
+		{3A306958-25E0-41D7-955C-1AA987F78713}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A306958-25E0-41D7-955C-1AA987F78713}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A306958-25E0-41D7-955C-1AA987F78713}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{3A306958-25E0-41D7-955C-1AA987F78713}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{3A306958-25E0-41D7-955C-1AA987F78713}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3A306958-25E0-41D7-955C-1AA987F78713}.Debug|x86.Build.0 = Debug|Any CPU
+		{3A306958-25E0-41D7-955C-1AA987F78713}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A306958-25E0-41D7-955C-1AA987F78713}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A306958-25E0-41D7-955C-1AA987F78713}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{3A306958-25E0-41D7-955C-1AA987F78713}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{3A306958-25E0-41D7-955C-1AA987F78713}.Release|x86.ActiveCfg = Release|Any CPU
+		{3A306958-25E0-41D7-955C-1AA987F78713}.Release|x86.Build.0 = Release|Any CPU
+		{5C40CBFD-E8EE-419F-B2BA-19B4E730958E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C40CBFD-E8EE-419F-B2BA-19B4E730958E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C40CBFD-E8EE-419F-B2BA-19B4E730958E}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{5C40CBFD-E8EE-419F-B2BA-19B4E730958E}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{5C40CBFD-E8EE-419F-B2BA-19B4E730958E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5C40CBFD-E8EE-419F-B2BA-19B4E730958E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C40CBFD-E8EE-419F-B2BA-19B4E730958E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C40CBFD-E8EE-419F-B2BA-19B4E730958E}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{5C40CBFD-E8EE-419F-B2BA-19B4E730958E}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{5C40CBFD-E8EE-419F-B2BA-19B4E730958E}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = 6510emu.vsmdi
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = emuConsole\emuConsole.csproj
+	EndGlobalSection
+EndGlobal

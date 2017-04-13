@@ -1,0 +1,2 @@
+﻿04.04.2013
+Added opcodes: PLA, PLP, TXS, TXS, TAY, TYA, TAX, TXA, ADC_IMM, ADC_ZP

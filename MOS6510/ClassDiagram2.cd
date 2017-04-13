@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MOS6510.Commands.ArithmeticCommands.INC_Abs" Collapsed="true">
+    <Position X="3.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\ArithmeticCommands.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MOS6510.Commands.CommandBase" Collapsed="true">
+    <Position X="2.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAACAAEgAAAEAQIAAUQAACiAAAACAAAAAAGACAQ=</HashCode>
+      <FileName>Commands\CommandBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MOS6510.Commands.JumpFlagCommands.JMP_ABS" Collapsed="true">
+    <Position X="3.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\JumpFlagCommands.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MOS6510.Commands.MoveCommands.LDX_Imm" Collapsed="true">
+    <Position X="3.5" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\MoveCommands.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MOS6510.CPU.MOS6510Chip">
+    <Position X="0.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAACAAQAIAAAAAAQBAAAAAAAAACAAACAAI=</HashCode>
+      <FileName>CPU\MOS6510Chip.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MOS6510.CPU.Registers">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIgAEAAAAAAAAgAAAAAAgAAAAIAAAYAA=</HashCode>
+      <FileName>CPU\Registers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MOS6510.CPU.StatusRegister">
+    <Position X="4.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAhDEQAAE=</HashCode>
+      <FileName>CPU\StatusRegister.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MOS6510.CPU.StatusRegisterBase" Collapsed="true">
+    <Position X="4.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAAAAgAAACAAAAAAAgAAAAAAQ=</HashCode>
+      <FileName>CPU\StatusRegistereBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MOS6510.Execution.Assembler" Collapsed="true">
+    <Position X="7.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAgAAAAAgABBAAAAAgQAAAAEAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Execution\Assembler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MOS6510.Execution.Disassembler" Collapsed="true">
+    <Position X="7.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAAAAAAAAAAAAEAAAAAAAAIAAAQ=</HashCode>
+      <FileName>Execution\Disassembler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MOS6510.Execution.ExecutionContext">
+    <Position X="0.5" Y="5.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Execution\ExecutionContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MOS6510.Helpers.BitMath" Collapsed="true">
+    <Position X="7.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAACAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\BitMath.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MOS6510.Helpers.C64Exception" Collapsed="true">
+    <Position X="7.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\C64Exception.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MOS6510.Helpers.StringHelpers" Collapsed="true">
+    <Position X="7.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\StringHelpers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="MOS6510.Execution.IExecution" Collapsed="true">
+    <Position X="2.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Execution\IExecution.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="MOS6510.Commands.IndexingMode" Collapsed="true">
+    <Position X="0.5" Y="7.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAQAAAAAgAAgAAAAAAAAAAAAAAAAAAAAIEAACA=</HashCode>
+      <FileName>Commands\IndexingMode.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MOS6510.CPU.SRFlags" Collapsed="true">
+    <Position X="4.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAhDEQAAE=</HashCode>
+      <FileName>CPU\StatusRegistereBase.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MOS6510.Commands.Opcode" Collapsed="true">
+    <Position X="0.5" Y="8.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AABASAQgAGACQEAAAABQACAAAABIQAAACAAEAAAAEIA=</HashCode>
+      <FileName>Commands\Opcode.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

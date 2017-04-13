@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.0</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F40AA62A-89CD-4EB1-88D7-7D5DBE6A1DF3}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>MOS6510</RootNamespace>
+    <AssemblyName>MOS6510</AssemblyName>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>False</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>False</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>True</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Externalconsole>True</Externalconsole>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="Helpers\BitMath.cs" />
+    <Compile Include="Helpers\C64Exception.cs" />
+    <Compile Include="CPU\MOS6510Chip.cs" />
+    <Compile Include="Commands\CommandBase.cs" />
+    <Compile Include="Commands\MoveCommands.cs" />
+    <Compile Include="CPU\StatusRegistereBase.cs" />
+    <Compile Include="CPU\StatusRegister.cs" />
+    <Compile Include="Commands\Opcode.cs" />
+    <Compile Include="Execution\IExecution.cs" />
+    <Compile Include="Execution\ExecutionContext.cs" />
+    <Compile Include="Execution\Disassembler.cs" />
+    <Compile Include="Commands\ArithmeticCommands.cs" />
+    <Compile Include="CPU\Registers.cs" />
+    <Compile Include="Commands\IndexingMode.cs" />
+    <Compile Include="Execution\Assembler.cs" />
+    <Compile Include="Helpers\StringHelpers.cs" />
+    <Compile Include="Commands\JumpFlagCommands.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Content Include="Changes.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram2.cd" />
+    <None Include="SourceCode\test.asm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+</Project>
